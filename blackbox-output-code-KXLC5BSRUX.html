@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lotion World: Discover the Best Lotions and Their Benefits</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .lotion-type {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .lotion-type img {
+            width: 200px;
+            height: auto;
+            margin-right: 20px;
+            border-radius: 8px;
+        }
+        .advantages {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .cookie-banner {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #000;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            z-index: 1000;
+        }
+        .cookie-banner button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="cookie-banner" class="cookie-banner">
+        This website uses cookies to improve your experience. By continuing to use this site, you agree to our use of cookies. <button onclick="acceptCookies()">Accept</button>
+    </div>
+
+    <header>
+        <h1>Welcome to Lotion World</h1>
+        <p>Your ultimate guide to different kinds of lotions and their amazing advantages. Explore, learn, and pamper your skin!</p>
+    </header>
+
+    <nav>
+        <a href="#body-lotion">Body Lotion</a>
+        <a href="#hand-lotion">Hand Lotion</a>
+        <a href="#face-lotion">Face Lotion</a>
+        <a href="#foot-lotion">Foot Lotion</a>
+        <a href="#sun-lotion">Sun Lotion</a>
+        <a href="#privacy-policy">Privacy Policy</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+
+        <section id="introduction" class="section">
+            <h2>Introduction to Lotions</h2>
+            <p>Lotions are essential skincare products that hydrate, nourish, and protect the skin. They come in various types, each designed for specific skin needs. In this comprehensive guide, we'll explore different kinds of lotions, their advantages, and how they can benefit your daily routine. From body lotions that keep your skin soft all day to specialized sun lotions that shield against UV rays, there's a lotion for everyone. We've included hyperlinks to trusted sources for more information and high-quality pictures to visualize each type. Remember, always consult a dermatologist for personalized advice.</p>
+            <p>For more on skincare basics, check out this <a href="https://www.healthline.com/health/skin-care" target="_blank">Healthline article on skincare</a>.</p>
+        </section>
+
+        <section id="body-lotion" class="section">
+            <h2>Body Lotion</h2>
+            <div class="lotion-type">
+                <img src="https://example.com/body-lotion.jpg" alt="Body Lotion" onerror="this.src='https://via.placeholder.com/200x150?text=Body+Lotion'">
+                <div>
+                    <p>Body lotion is a versatile moisturizer applied to the entire body to keep skin hydrated and smooth. It's perfect for daily use after showering.</p>
+                    <h3>Advantages:</h3>
+                    <ul class="advantages">
+                        <li>Deeply hydrates dry skin, preventing flakiness and irritation.</li>
+                        <li>Contains vitamins and essential oils that nourish and repair the skin barrier.</li>
+                        <li>Absorbs quickly without leaving a greasy residue, making it ideal for all skin types.</li>
+                        <li>Helps reduce the appearance of stretch marks and scars over time.</li>
+                        <li>Available in various scents, enhancing the sensory experience of skincare.</li>
+                        <li>Cost-effective and widely available, with options for sensitive skin.</li>
+                        <li>Can be used as a base for other skincare products like body oils.</li>
+                        <li>Improves skin elasticity, keeping it youthful and supple.</li>
+                        <li>Protects against environmental pollutants and daily wear and tear.</li>
+                        <li>Promotes better sleep by creating a calming routine before bed.</li>
+                    </ul>
+                </div>
+            </div>
+            <p>Learn more about body lotions from <a href="https://www.dermstore.com/blog/what-is-body-lotion/" target="_blank">Dermstore's guide</a>.</p>
+        </section>
+
+        <section id="hand-lotion" class="section">
+            <h2>Hand Lotion</h2>
+            <div class="lotion-type">
+                <img src="https://example.com/hand-lotion.jpg" alt="Hand Lotion" onerror="this.src='https://via.placeholder.com/200x150?text=Hand+Lotion'">
+                <div>
+                    <p>Hand lotion is specifically formulated for the hands, which are often exposed to harsh elements like cold weather and frequent washing.</p>
+                    <h3>Advantages:</h3>
+                    <ul class="advantages">
+                        <li>Intensely moisturizes and softens cracked, dry hands.</li>
+                        <li>Contains ingredients like shea butter and aloe vera for soothing relief.</li>
+                        <li>Quick-absorbing formula that's perfect for on-the-go use.</li>
+                        <li>Helps prevent and heal chapped skin caused by winter or allergies.</li>
+                        <li>Strengthens nails and cuticles, promoting healthier hands overall.</li>
+                        <li>Non-greasy texture allows for immediate use of hands without residue.</li>
+                        <li>Available in travel-sized bottles for convenience.</li>
+                        <li>Reduces the risk of infections by maintaining skin integrity.</li>
+                        <li>Enhances the appearance of hands, making them look more youthful.</li>
+                        <li>Can be used as a base for nail polish or other hand treatments.</li>
+                    </ul>
+                </div>
+            </div>
+            <p>Explore hand lotion tips from <a href="https://www.allure.com/story/best-hand-creams" target="_blank">Allure's recommendations</a>.</p>
+        </section>
+
+        <section id="face-lotion" class="section">
+            <h2>Face Lotion</h2>
+            <div class="lotion-type">
+                <img src="https://example.com/face-lotion.jpg" alt="Face Lotion" onerror="this.src='https://via.placeholder.com/200x150?text=Face+Lotion'">
+                <div>
+                    <p>Face lotion, also known as facial moisturizer, is designed for the delicate skin of the face, providing hydration without clogging pores.</p>
+                    <h3>Advantages:</h3>
+                    <ul class="advantages">
+                        <li>Hydrates and balances the skin's moisture levels, reducing dryness and fine lines.</li>
+                        <li>Contains SPF in some formulas to protect against sun damage.</li>
+                        <li>Lightweight and non-comedogenic, suitable for acne-prone skin.</li>
+                        <li>Infused with antioxidants to fight free radicals and premature aging.</li>
+                        <li>Improves skin texture and tone for a radiant complexion.</li>
+                        <li>Can be layered under makeup for a smooth base.</li>
+                        <li>Available in various types like gel, cream, or serum for different needs.</li>
+                        <li>Helps with conditions like eczema or rosacea when formulated appropriately.</li>
+                        <li>Promotes collagen production for firmer, plumper skin.</li>
+                        <li>Easy to apply and absorbs quickly, fitting into any routine.</li>
+                    </ul>
+                </div>
+            </div>
+            <p>Read about face lotions on <a href="https://www.paulaschoice.com/expert-advice/skincare-advice/face-moisturizer.html" target="_blank">Paula's Choice</a>.</p>
+        </section>
+
+        <section id="foot-lotion" class="section">
+            <h2>Foot Lotion</h2>
+            <div class="lotion-type">
+                <img src="https://example.com
